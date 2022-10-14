@@ -1,12 +1,12 @@
 {
   "name": "sample-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample API",
   "main": "index.js",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nodemon ./src/index.js",
+    "dev": "nodemon ./src/index.js --config nodemon.json",
     "start": "node ./src/index.js"
   },
   "keywords": [],
